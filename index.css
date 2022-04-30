@@ -1,0 +1,126 @@
+html{
+    scroll-behavior: smooth;
+}
+h2{
+    font-family: 'Water Brush', cursive;
+    text-decoration: underline;
+}
+.head{
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+body{
+    margin: 0;
+  
+}
+.wellcome{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.wellcome-text{
+    margin-top: 105px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Water Brush', cursive;
+    
+    
+}
+.menue{
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+ .menue a{
+    color: white;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.menue a:hover{
+    text-decoration: underline;
+    color: red;
+    font-size: 30px;
+
+}
+
+.opentimes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    
+}
+.foodimage{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+.menuecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 148, 148);
+    font-size: 25px;
+    padding-bottom: 25px;    
+}
+.border{
+    border-style: solid;
+}
+.bg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 25px;
+    background-image: url(img/mail.png);
+    height: 500px;
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+   
+}
+.bg2 a{
+    color: white;
+}
+.bg2 a:hover{
+    color:red;
+    font-size: 35px;
+}
+.footer{
+    padding: 50px;
+    background-color: rgb(151, 148, 148);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.footer a{
+    color: white;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.footer-children{
+    width: 40%;
+    color: white;
+
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    color: red;
+    font-size: 30px;
+
+}
